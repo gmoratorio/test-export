@@ -1,5 +1,6 @@
 import * as testHelper from './helpers/testHelper';
 import * as testService from './services/testService';
+import * as testComponent from './components/testComponent';
 
 const helpers = {
     testHelper
@@ -7,6 +8,10 @@ const helpers = {
 
 const services = {
     testService
-}
+};
 
-export {helpers, services};
+const components = {
+    testComponent
+};
+
+export {helpers, services, components};
