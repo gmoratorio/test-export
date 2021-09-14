@@ -9,4 +9,4 @@ const services = {
     testService
 }
 
-export default {helpers, services};
+export {helpers, services};
